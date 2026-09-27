@@ -14,7 +14,7 @@ export default function Footer() {
 
         <div className="mt-12 flex flex-col gap-4 font-mono text-sm tracking-label sm:flex-row sm:gap-10">
           <a
-            href={profile.links.email}
+            href={`mailto:${profile.links.email}`}
             className="text-bone underline decoration-signal underline-offset-4 hover:text-signal"
           >
             EMAIL

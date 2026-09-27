@@ -5,7 +5,7 @@ export const skillCategories = [
   },
   {
     category: "Web",
-    items: ["HTML", "CSS"],
+    items: ["HTML", "CSS",],
     // Note: JavaScript is already listed under Languages, not repeated here.
   },
   {
