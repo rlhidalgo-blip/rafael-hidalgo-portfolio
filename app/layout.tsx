@@ -29,7 +29,7 @@ const mono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: `${profile.name} — Portfolio`,
-  description: profile.aboutParagraph,
+  description: profile.aboutParagraph.join(" "),
   openGraph: {
     title: `${profile.name} — Portfolio`,
     description: profile.heroBlurb,
