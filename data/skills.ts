@@ -11,6 +11,6 @@ export const skillCategories = [
   {
     category: "Currently Learning",
     items: [], // TODO: add technologies as you start learning them
-    placeholder: "Add what you're exploring right now",
+    placeholder: "AI PRODUCT MANAGEMENT, MACHINE LEARNING, DATA STRUCTIRES AND ALGORITHMS, AND MORE",
   },
 ];

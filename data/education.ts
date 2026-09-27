@@ -10,7 +10,7 @@ export const education = [
 
 export const organizations = [
   {
-    name: "ACM",
+    name: "FEU Institute of Technology - ACM",
     role: "Member",
     detail: "Current",
     // TODO: expand with responsibilities/activities as you take them on
