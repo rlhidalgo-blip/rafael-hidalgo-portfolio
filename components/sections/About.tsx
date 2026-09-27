@@ -7,9 +7,17 @@ export default function About() {
         <p className="font-mono text-xs tracking-label text-signal">
           ABOUT
         </p>
-        <p className="max-w-2xl text-xl leading-relaxed text-bone sm:text-2xl">
-          {profile.aboutParagraph}
-        </p>
+
+        <div className="max-w-2xl space-y-6">
+          {profile.aboutParagraph.map((paragraph, index) => (
+            <p
+              key={index}
+              className="text-xl leading-relaxed text-bone sm:text-2xl"
+            >
+              {paragraph}
+            </p>
+          ))}
+        </div>
       </div>
     </section>
   );

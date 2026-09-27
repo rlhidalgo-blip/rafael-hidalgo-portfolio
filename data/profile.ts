@@ -12,8 +12,12 @@ export const profile = {
     "Studying Computer Science with a focus on AI — still early on, mostly learning by building things and taking them apart again.",
 
   // Slightly longer version for the About section.
-  aboutParagraph:
-    "I am a 2nd-year BS Computer Science student specializing in Artificial Intelligence. My passion lies in exploring the intersection of technology and creativity, where I can apply my skills to solve complex problems and contribute to innovative projects. I am constantly seeking opportunities to learn, grow, and make a meaningful impact in the field of computer science.",
+  aboutParagraph: [
+  "A Computer Science student specializing in Artificial Intelligence at FEU Institute of Technology, El has a growing focus on Product Management and AI-powered products.",
+
+  "He is interested in the intersection of technology, users, and business—particularly in translating technical ideas into products that solve meaningful problems. Alongside his studies in Computer Science and AI, he is developing skills in product strategy, user research, data analysis, and product development.",
+
+],
 
   // Small status readout in the hero, replaces fabricated stats.
   status: [
