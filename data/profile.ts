@@ -23,7 +23,7 @@ export const profile = {
   ],
 
   links: {
-    email: "mailto:rafaeylhidalgo@email.com", // TODO: replace with real email
+    email: "rafaeylhidalgo@gmail.com", // TODO: replace with real email
     github: "https://github.com/rlhidalgo-blip", // TODO: replace with real GitHub URL
     linkedin: "https://www.linkedin.com/in/hidalgorafael17/", // TODO: replace with real LinkedIn URL
     resume: "/resume.pdf", // TODO: drop your resume PDF into /public as resume.pdf
