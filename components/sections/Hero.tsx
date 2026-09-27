@@ -26,51 +26,66 @@ export default function Hero() {
         <p>ARTIFICIAL INTELLIGENCE</p>
       </div>
 
-      {/* ---------- MOBILE composition ---------- */}
-      <div className="relative z-10 mx-auto flex flex-col items-center pb-8 pt-2 text-center md:hidden">
-        <span
-          aria-hidden
-          className="-mb-[6%] select-none font-display text-[24vw] font-black uppercase leading-[0.8] text-signal"
-        >
-          {profile.heroWord}
-        </span>
+     {/* ---------- MOBILE composition ---------- */}
+<div className="relative z-10 mx-auto flex flex-col items-center pb-8 pt-2 text-center md:hidden">
 
-        <div className="relative z-10 aspect-[3/4] w-[74vw] max-w-xs">
-          <Image
-            src="/images/portrait.png"
-            alt="Rafael L. Hidalgo"
-            fill
-            priority
-            sizes="75vw"
-            className="object-cover object-top"
-          />
-        </div>
+  {/* Giant name */}
+  <div
+    aria-hidden
+    className="relative z-0 select-none font-display text-[22vw] font-black uppercase leading-[0.78] text-signal"
+  >
+    RAFAEL
+    <br />
+    HIDALGO
+  </div>
 
-        <p className="-mt-3 font-mono text-xs tracking-label text-signal">
-          CURRENTLY, I&apos;M
-        </p>
-        <h1 className="relative z-20 -mt-1 font-display text-4xl font-black uppercase leading-[0.9] text-bone">
-          {profile.firstName}
-          <br />
-          {profile.lastName}
-        </h1>
-        <p className="mt-3 text-xs font-semibold text-signal">
-          {profile.role}
-        </p>
-        <p className="mt-4 max-w-xs text-xs text-muted">{profile.heroBlurb}</p>
+  {/* Portrait */}
+  <div className="relative z-10 -mt-[10vw] aspect-[3/4] w-[72vw] max-w-xs">
+    <Image
+      src="/images/portrait.png"
+      alt="Rafael L. Hidalgo"
+      fill
+      priority
+      sizes="75vw"
+      className="object-cover object-top"
+    />
+  </div>
 
-        <div className="mt-8 w-full space-y-1.5 border-t border-bone/10 pt-5">
-          {profile.status.map((row) => (
-            <div
-              key={row.label}
-              className="flex justify-center gap-4 font-mono text-xs tracking-label"
-            >
-              <span className="text-muted">{row.label}</span>
-              <span className="text-bone">{row.value}</span>
-            </div>
-          ))}
-        </div>
+  {/* Current focus */}
+  <div className="relative z-20 -mt-8">
+    <p className="font-mono text-xs tracking-label text-signal">
+      CURRENTLY
+    </p>
+
+    <h1 className="mt-1 font-display text-5xl font-black uppercase leading-[0.9] text-bone">
+      {profile.heroWord}
+    </h1>
+  </div>
+
+  {/* Role */}
+  <p className="mt-4 max-w-xs text-xs font-semibold text-signal">
+    {profile.role}
+  </p>
+
+  {/* Bio */}
+  <p className="mt-4 max-w-xs text-xs leading-relaxed text-muted">
+    {profile.heroBlurb}
+  </p>
+
+  {/* Status */}
+  <div className="mt-8 w-full space-y-1.5 border-t border-bone/10 pt-5">
+    {profile.status.map((row) => (
+      <div
+        key={row.label}
+        className="flex justify-center gap-4 font-mono text-xs tracking-label"
+      >
+        <span className="text-muted">{row.label}</span>
+        <span className="text-bone">{row.value}</span>
       </div>
+    ))}
+  </div>
+
+</div>
 
       {/* ---------- DESKTOP composition ---------- */}
       <div className="relative z-10 mx-auto hidden max-w-content md:block md:h-[74vh] md:min-h-[560px]">
