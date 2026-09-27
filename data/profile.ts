@@ -13,7 +13,7 @@ export const profile = {
 
   // Slightly longer version for the About section.
   aboutParagraph:
-    "I'm a second-year BS Computer Science student at FEU Institute of Technology, specializing in Artificial Intelligence. I'm most comfortable working in Python and Java, and I'm slowly building up my web development skills alongside that. I'm a member of ACM, and most of what's on this site is a work in progress — I'll be adding real projects here as I build them.",
+    "I am a 2nd-year BS Computer Science student specializing in Artificial Intelligence. My passion lies in exploring the intersection of technology and creativity, where I can apply my skills to solve complex problems and contribute to innovative projects. I am constantly seeking opportunities to learn, grow, and make a meaningful impact in the field of computer science.",
 
   // Small status readout in the hero, replaces fabricated stats.
   status: [
