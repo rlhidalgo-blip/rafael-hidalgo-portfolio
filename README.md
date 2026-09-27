@@ -1,41 +1,74 @@
-# Rafael L. Hidalgo — Portfolio (EPOCH concept, V1)
+# Rafael L. Hidalgo — Personal Portfolio
 
-Next.js + TypeScript + Tailwind + Framer Motion + Lenis.
+My personal developer portfolio showcasing my projects, technical skills, education, and journey as a Computer Science student specializing in Artificial Intelligence.
 
-## Run it locally
+This portfolio is designed around a bold editorial aesthetic with a focus on strong typography, minimalism, and interactive web experiences.
+
+## About Me
+
+I'm Rafael L. Hidalgo, a 2nd-year BS Computer Science student specializing in Artificial Intelligence at FEU Institute of Technology.
+
+I'm currently building my foundations across software development, databases, web technologies, and AI while developing projects that allow me to apply what I learn in practice.
+
+## Tech Stack
+
+The portfolio is built with:
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lenis
+
+## Features
+
+- Responsive personal portfolio
+- Custom editorial-inspired interface
+- Animated hero section
+- Project showcase
+- About section
+- Technical skills
+- Education and organization experience
+- Resume integration
+- GitHub and LinkedIn links
+- Responsive navigation
+- Smooth scrolling and motion effects
+
+## Current Sections
+
+### Home
+An editorial-style introduction featuring my identity, current focus, and background.
+
+### Projects
+Selected software projects and works in progress.
+
+### About
+More information about my background, interests, and development journey.
+
+### Skills
+Technologies and tools I currently work with, including:
+
+- Python
+- Java
+- JavaScript
+- HTML
+- CSS
+- SQL
+
+### Education
+
+**FEU Institute of Technology**  
+Bachelor of Science in Computer Science — Specialization in Artificial Intelligence  
+Expected Graduation: **2029**
+
+### Organizations
+
+**Association for Computing Machinery (ACM)**  
+Member
+
+## Running Locally
+
+Clone the repository:
 
 ```bash
-npm install
-npm run dev
-```
-
-Then open http://localhost:3000
-
-## What's real vs. placeholder right now
-
-**Real, from you:**
-- Name, education (FEU Institute of Technology, BSCS-AI, expected 2029)
-- Organizations (ACM — Member)
-- Skills (Languages: Java, Python, JavaScript, SQL / Web: HTML, CSS)
-- Bio copy in `data/profile.ts`
-
-**Still placeholder — clearly marked with `TODO` comments:**
-- `data/projects.ts` — three neutral project slots (PROJECT 01/02/03),
-  ready to receive real project data in the same shape.
-- `data/skills.ts` — "Currently Learning" category, empty until you add to it.
-- `data/profile.ts` — email / GitHub / LinkedIn / resume links.
-- Hero portrait — see `PORTRAIT.md`.
-
-## Editing content
-
-You shouldn't need to touch component files to update text — everything
-content-related lives in `/data`. Open the relevant file, edit the
-values, save, refresh the browser.
-
-## Next steps (see the implementation plan from the brief)
-
-1. Re-upload the portrait → finalize hero.
-2. Send real project details → fill in `data/projects.ts`.
-3. Send real email/GitHub/LinkedIn/resume PDF → fill in `data/profile.ts`
-   and drop `resume.pdf` into `/public`.
-4. Then: responsive pass, performance/SEO pass, deploy to Vercel.
+git clone https://github.com/rlhidalgo-blip/rafael-hidalgo-portfolio.git
